@@ -34,6 +34,9 @@ $ npm install -g truffle
 $ npm install -g ganache-cli
 
 // Ganache GUI installation: truffleframework.com/ganache/
+
+// Truffle HD wallet provider
+$ npm install -g truffle-hdwallet-provider
 ```
 
 ## (Recommended) Metamask ##
