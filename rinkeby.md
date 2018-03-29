@@ -14,7 +14,7 @@ sudo apt-get update
 sudo apt-get install ethereum
 ```
 
-If you're just upgrade `geth` from a previous version, you can just run:
+If you're just upgrading `geth` from a previous version, you can just run:
 
 ```
 sudo apt install geth
@@ -52,7 +52,7 @@ However, if you do these things on a mainnet node with your unlocked wallet expo
 
 ## Step 3: Create an account
 
-In a separate `tmux` pane or `screen` buffer or a separate terminal completely, create an account and save the password somewhere safe.
+In a separate terminal completely, create an account and save the password somewhere safe.
 
 After that, attach the console with the appropriate data directory.
 
