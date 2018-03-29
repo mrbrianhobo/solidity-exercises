@@ -33,10 +33,7 @@ brew upgrade geth
 
 ## Step 2: Run Geth in Rinkeby Mode
 
-At this point, you should probably start a `tmux` or `screen` session, so if you get
-interrupted during syncing it will still keep going in the background.
-
-To start syncing your node up with the Rinkeby testnet (might take several minutes), run:
+To start syncing your node up with the Rinkeby testnet (might take several minutes), open a terminal window and run:
 
 ```
 geth --rinkeby --syncmode "fast"
@@ -52,9 +49,9 @@ However, if you do these things on a mainnet node with your unlocked wallet expo
 
 ## Step 3: Create an account
 
-In a separate terminal completely, create an account and save the password somewhere safe.
+In a separate terminal completely, we want to open up a `geth` console and attach it to an appropriate data directory.
 
-After that, attach the console with the appropriate data directory.
+After opening up the console, we want to create an Ethereum account and save the password somewhere safe.
 
 On Linux it would be:
 ```
@@ -83,13 +80,13 @@ instance: Geth/v1.8.1-stable/darwin-amd64/go1.10
 > eth.getBalance(eth.coinbase)
 0
 ```
-You'll see a different address than `0x3dd474d2957843e6504169f7b299a9f53f281756`. That one's mine, provided for illustration. Save your password in a secret place, preferrably encrypted. 
+You'll see a different address than `0x3dd474d2957843e6504169f7b299a9f53f281756`. That one's mine, provided as an example. Save your password in a secret place, preferrably encrypted. 
 
 Leave that terminal open for now.
 
 ## Step 4: Request ETH
 
-Because Kovan and Rinkeby both use Proof-of-Authority (clique) to grant ETH, you'll need to request some to get started. 
+Because Rinkeby both uses Proof-of-Authority (clique) to grant ETH, you'll need to request some to get started. 
 
 However, unlike Kovan which requires you to bootstrap by requesting KETH from another human being, Rinkeby has a super-slick automated faucet, where you submit your address (copied from above) into one of three methods:
 
@@ -97,7 +94,7 @@ However, unlike Kovan which requires you to bootstrap by requesting KETH from an
 * A public Facebook post
 * A public Google+ link
 
-Since I never use Google+ for social reasons with humans, I might as well use this for socializing with robots.
+Since I never use Google+ for any reason, I might as well use it as a medium for requesting ETH.
 
 You can go to `http://plus.google.com` and post publicly on any discussion board. [Here's mine.](https://plus.google.com/u/1/115939958206897664217/posts/SKBeH5RdaG4)
 

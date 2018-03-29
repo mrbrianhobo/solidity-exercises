@@ -21,6 +21,8 @@ $ brew install node
 $ brew tap ethereum/ethereum
 $ brew install ethereum
 ```
+After that, you should be able to run the `geth` command and start seeing things running in your terminal window. 
+
 
 ## Truffle and Ganache ##
 [Truffle](https://github.com/trufflesuite/truffle) is our main develement tool for deploying Solidity smart contracts. It helps us organize all our files into a neat little package and simplifies the smart contract deployment and testing process. [Ganache](https://github.com/trufflesuite/ganache) is visual development tool that will help us spin up a local Ethereum blockchain instance on our machine. In our examples, we'll be using the command line interface (ganache-cli) to help us manage our local blockchain instance. For more information about using the Ganache GUI (not the CLI), visit the Github repo [here](https://github.com/trufflesuite/ganache)). 
@@ -35,7 +37,7 @@ $ npm install -g ganache-cli
 ```
 
 ## (Recommended) Metamask ##
-[Metamask](https://metamask.io/) is a browser extension that enables you to connect to Ethereum dApps. It acts as a user interface to manage your identities on different sites and sign blockchain transactions. For instructions on how Metamask works and how to install it, visit their site [here](https://metamask.io/) and watch their intro video. 
+[Metamask](https://metamask.io/) is a browser extension that enables you to connect to Ethereum dApps. It acts as a user interface to manage your identities on different sites and sign blockchain transactions. For instructions on how Metamask works and how to install it, visit their site [here](https://metamask.io/) and watch their intro [video](https://www.youtube.com/watch?v=6Gf_kRE4MJU). 
 
 ## (Optional) solc ##
 solc is the compiler developed for the Solidity Contract-Oriented Programming Language. Feel free to install it and try it out, but for quick testing and learning Solidity, it'll probably be easier to access the online [Remix compiler](https://remix.ethereum.org/). For more installation info, visit the documentation  [here](http://solidity.readthedocs.io/en/v0.4.21/installing-solidity.html).
